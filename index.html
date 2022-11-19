@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>나만의 동기부여 홈화면 만들기</title>
+
+    <script src="index.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-image: url(https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjEwMTBfMTk1%2FMDAxNjY1MzkyNjg1MzAw.pNH9Ws6v05hniCEsl4qM3ue6Y8M9gxi0x8jzlNdK1uYg.jGjndVJmnwtG_AwgcyhR9HhX1ThzOWKAQnA7ehuKV08g.JPEG.popoya7766%2FIMG_8220.jpg&type=a340
+            );
+            background-position: center;
+
+            color: white;       
+        }
+
+        .time {
+            font-size: 80px;
+            font-weight: bold;
+        }
+       
+        .main {
+            width: 100vw;
+            height: 80vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .quote {
+            width: 100vw;
+            height: 20vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+
+    <script>
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <div id="time" class="time">12:00</div>
+        <div class="greeting">hello</div>
+        <div class="todo">일해야지 일일일</div>
+    </div>
+    <div class="quote">
+        <div id="author" class="author">- ㄴㅇㄴㅇ -</div>
+        <div id="content" class="content">" ㄴㅇㄴㅇ "</div>
+    </div>
+</body>
+
+</html>
